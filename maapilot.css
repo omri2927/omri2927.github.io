@@ -1,0 +1,171 @@
+body {
+	background-image:url("https://www.sevillafc.es/sites/default/files/news/image/champions2021.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	color: none;	
+	font-size: 125%;
+	opacity: 1;
+}
+.llk {
+	color: lime;
+}
+.yyy {
+	color: yellow;
+}
+.kkh {
+	color: red;
+}
+.you {
+	color: orange;
+}
+.shemesh {
+	color: DeepPink;
+}
+#king {
+	color: Turquoise;
+}
+.uup {
+	color: LightCyan;
+}
+#llo {
+	color: red;
+}
+#ygg { 
+	color: red;
+	background-image: url("https://logos-world.net/wp-content/uploads/2020/06/FC-Bayern-Munchen-Logo-1996-2002.png");
+	background-size: 246px 170px;
+	background-repeat:no-repeat;
+	Background-position: 10% 50%;
+}
+#lop { 
+	color: red;
+}
+#lala {
+	color: Crimson;
+	background-image: url("https://logos-world.net/wp-content/uploads/2020/06/Atletico-Madrid-emblem.png");
+	background-size: 220px 130px;
+	background-repeat: no-repeat;
+	background-position: 27% 1%;
+}
+.uuu {
+	color: Crimson;
+}
+#too {
+	color: FloralWhite;
+	background-image:url("https://logos-world.net/wp-content/uploads/2020/06/Real-Madrid-Logo.png");
+	background-size:225px 135px;
+	background-repeat: no-repeat;
+	background-position: 70% 0% ;
+}
+#dop { 
+	color: GhostWhite;
+	background-image: url("https://cdn.freebiesupply.com/logos/large/2x/borussia-monchengladbach-logo-png-transparent.png");
+	background-repeat: no-repeat;
+	background-size: 155px 168px;
+	background-position: 55% 10%;
+}
+#nbn {
+	color: Cyan;
+	background-image: url("https://logos-world.net/wp-content/uploads/2020/06/Manchester-City-Logo.png");
+	background-repeat: no-repeat;
+	background-size: 250px 135px;
+	background-position:20% 15%;
+}
+#youl {
+	color: Cyan;
+}
+#pppdd {
+	color: Blue;
+	background-image: url("https://upload.wikimedia.org/wikipedia/sco/thumb/f/f1/FC_Porto.svg/759px-FC_Porto.svg.png");
+	background-repeat: no-repeat;
+	background-size: 130px 124px;
+	background-position: 35% 10%;
+}
+#mmlo {
+	color: Red;
+}
+#nbv {
+	color: Red;
+	background-image: url("https://i.pinimg.com/originals/98/76/40/987640106754259e65e76b49c2c2cdd6.png");
+	background-repeat: no-repeat;
+	background-size: 212px 155px;
+	background-position: 33% 10%;
+}
+#kkg {
+	color: RoyalBlue;
+	background-image: url("https://en.logodownload.org/wp-content/uploads/2020/03/atalanta-logo-41.png");
+	background-repeat: no-repeat;
+	background-size: 132px 175px;
+	background-position: 8% 10%;
+}
+#yesh {
+	color: RoyalBlue;
+}
+#galula {
+	color: MediumBlue;
+}
+#sol {
+	color: MediumBlue;
+	background-image: url("https://assets.stickpng.com/images/580b57fcd9996e24bc43c4e1.png");
+	background-repeat: no-repeat;
+	background-size: 175px 155px;
+	background-position: 3% 10%;
+}
+#olul {
+	color: White;
+	background-image: url("https://www.logofootball.net/wp-content/uploads/Sevilla-FC-Logo.png");
+	background-repeat: no-repeat;
+	background-size: 175px 155px;
+	background-position: 62% 10%;
+}
+#rpg {
+	color: yellow;
+	background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg.png");
+	background-repeat: no-repeat;
+	background-size: 175px 175px;
+	background-position: 28% 10%;
+}
+#looly { 
+	color: SkyBlue;
+	background-image:url("https://cdn.bleacherreport.net/images/team_logos/328x328/lazio.png");
+	background-repeat: no-repeat;
+	background-size: 175px 182px;
+	background-position: 5% 10%;
+}
+#sqbon { 
+	color: White;
+}
+#thanks {
+	color: White;
+	background-image:url("https://logos-world.net/wp-content/uploads/2020/06/Juventus-Logo.png");
+	background-repeat: no-repeat;
+	background-size: 240px 182px;
+	background-position: 58% 50%;
+}
+#lpll {
+	color: MediumBlue;
+	background-image:url("https://www.logolynx.com/images/logolynx/e7/e7382b51e30d9e1b6c5f80d798cd6ed3.png");
+	background-repeat: no-repeat;
+	background-size: 177px 150px;
+	background-position: 80% 50%;
+}
+#shalom {
+	color: MediumBlue;
+}
+#noob {
+	color: DarkSlateBlue;
+}
+#tttth {
+	color: DarkSlateBlue;
+	background-image:url("https://assets.stickpng.com/images/580b57fcd9996e24bc43c4d8.png");
+	background-repeat: no-repeat;
+	background-size: 165px 150px;
+	background-position: 40% 50%;
+}
+#finish {
+	color: White;
+	background-image:url("https://upload.wikimedia.org/wikipedia/en/thumb/0/04/RB_Leipzig_2014_logo.svg/1200px-RB_Leipzig_2014_logo.svg.png");
+	background-repeat: no-repeat;
+	background-size: 190px 150px;
+	background-position: 72% 50%;
