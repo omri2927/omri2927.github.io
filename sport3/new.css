@@ -1,0 +1,44 @@
+body {
+	font-family: Ariel;
+	background-color: none;
+	font-size: 150%;
+	opacity: 1;
+	font-weight: 1000;
+	text-align: right; 
+	background-image:url("https://images.globes.co.il/images/NewGlobes/big_image_800/2018/096F00250B3EF7402AE9D87CB6C0B8B7_800x392.20180215T162303.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: contain;
+	margin: 5px;
+	padding: 10px;
+	
+}
+h1 {
+	color: red;
+}
+h2 {
+	color: lime;
+}
+p { 
+	color: blue;
+} 
+a { 
+	color: lime;
+	background-color: blue;
+}
+.ggk {
+	color: red;
+}
+.lkj {
+	color: lime;
+}
+.lll {
+	color: orange;
+}
+.uuy {
+	color: blue
+}
+
+.img_1 {
+	border: 5px black solid;
+} 

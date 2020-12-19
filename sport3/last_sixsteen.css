@@ -1,0 +1,105 @@
+body {
+    margin: 5px;
+    font-family: arial;
+    direction: rtl;
+}
+
+.allsite {
+    background-color: white;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+header {
+    width: 50%;
+    height: 300px;
+    border: 2px solid black;
+    background-color: rgb(255, 166, 0, 0.8);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(champions_league_winners.jpg);
+    background-size: 285px 210px;
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    transition: 0.6s all;
+}
+
+header:hover {
+    background-color:red;
+    color: white;
+}
+
+h1{
+    align-self: flex-start;
+    justify-self: center;
+    font-size: 30px;
+}
+
+
+a {
+    color: red;
+    font-size: 24px;
+    transition: all 0.6s;
+}
+
+a:hover {
+    color: blue;
+}
+
+.box1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.box2 {
+    font-size: 30px;
+}
+
+.box3 {
+    font-size: 24px;
+}
+
+.box4 {
+    width: 70%;
+    height: 550px;
+    border: 3px solid blue;
+    margin: 0 auto;
+}
+
+.img1 {
+    border: 8px solid black;
+    transition: all 0.9s;
+}
+
+.img1:hover {
+    border:inset 10px red;
+    -moz-border-radius: 23px;
+    -webkit-border-radius: 23px;
+    border-radius: 23px;
+    transform: rotate(0deg) scale(1.037) skew(1deg) translate(-31px);
+    -webkit-transform: rotate(0deg) scale(1.037) skew(1deg) translate(-31px);
+    -moz-transform: rotate(0deg) scale(1.037) skew(1deg) translate(-31px);
+    -o-transform: rotate(0deg) scale(1.037) skew(1deg) translate(-31px);
+    -ms-transform: rotate(0deg) scale(1.037) skew(1deg) translate(-31px);    
+}
+
+figure {
+    margin: 10px;
+}
+
+.box3 > article {
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+
+@media screen and (max-width:728px) {
+    .main {
+        background-color: lime;
+    }
+}
+
