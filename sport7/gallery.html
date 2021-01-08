@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>United Document</title>
+        <script>
+            let counter;
+            let timerIndex;
+            let counter2;
+            let timerIndex2;
+            let counter3;
+            let timerIndedx3;
+
+
+            window.onload = function() {
+                //setTimeout(writeHello,2000);
+                counter = 5;
+                timerIndex = 0;
+                counter2 = 5;
+                timerIndex2 = 0;
+                counter3 = 5;
+                timerIndex3 = 0;
+            }
+
+            function onStartClick() {
+                if(timerIndex == 0) {
+                    timerIndex =  setInterval(writeHello,500);
+                }
+            }
+            function  onStartClick2() {  
+                if(timerIndex2 == 0){
+                    timerIndex2 = setInterval(newWindow,500);
+                }
+            }
+            function onStartClick3() {
+                if(timerIndex3 == 0) {
+                    timerIndex3 = setInterval(newWebsite,500);
+                }           
+            }
+
+            function writeHello() {
+                counter--
+                if(counter <= 0){
+                    window.open("file:///C:/Users/AABBCC2123/Desktop/visual%20studio%20code/sport3/last_sixsteen.html", "_self");
+                    clearInterval(timerIndex);
+                    timerIndex = 0;
+                    counter = 0;
+                }
+                id_h2.innerHTML = counter;
+            }
+            
+            function newWindow() {  
+                counter2--
+                if(counter2 <= 0) {
+                    window.open("file:///C:/Users/AABBCC2123/Desktop/visual%20studio%20code/sport/Bestplayers.html", "_self");
+                    clearInterval(timerIndex2);
+                    timerIndex2 = 0;
+                    counter2 = 0;
+                }
+                id_h2.innerHTML = counter2;
+            }
+
+            function  newWebsite() {
+                counter3--
+                if (counter3 <= 0) {
+                    window.open("file:///C:/Users/AABBCC2123/Desktop/visual%20studio%20code/sport3/intersting_players.html", "_self");
+                    clearInterval(timerIndex3);
+                    timerIndex3 = 0;
+                    counter3 = 0;
+                }
+                id_h2.innerHTML = counter3;
+            }
+        </script>
+        <style>
+            body {
+                direction: rtl;
+                background-image: url("_images/football2.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            h1 {
+                margin: 0 auto;
+                width: 50%;
+                font-size: 30px;
+                background-color: orange;
+                color: blue;
+            }
+
+            button {
+                margin-bottom: 10px;
+                color: whitesmoke;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>ברוכים הבאים לדף הבית של האתרים של עומרי עמירן</h1>
+        <h2 id="id_h2"></h2>
+        <button  onclick="onStartClick()">כדי לעבור לאתר של סיקור משחקי שמינית גמר ליגת האלופות לחץ כאן</button>
+        <br>
+        <button  onclick="onStartClick2()">כדי לעבור לאתר של הרכב השחקנים הטובים בהיסטוריה, לחץ כאן</button>
+        <br>
+        <button onclick="onStartClick3()">כדי לעבור לאתר של של שחקני הכדורגל המעניינים ביותר כיום לחץ כאן</button>
+    </body>
+</html>
