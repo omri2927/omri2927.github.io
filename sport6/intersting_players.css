@@ -1,0 +1,121 @@
+/* CSS Document*/
+
+body {
+    margin: 5px;
+    font-family: arial;
+    direction: rtl;
+}
+
+.allsite {
+    background-color: white;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+header {
+    width: 50%;
+    width: 1140px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: rgba(0, 238, 255, 0.8);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s all;
+    display: flex;
+}
+
+header:hover {
+    background-color:red;
+    color: white;
+}
+
+header figcaption img {
+    border: 4px solid purple;
+}
+
+footer {
+    border:solid 7px red;
+    -moz-border-radius: 43px;
+    -webkit-border-radius: 43px;
+    border-radius: 43px;
+    margin: 10px;
+}
+
+.kishur > a{
+    color: silver;
+    text-decoration: none;
+    transform: 0.6s all;
+}
+
+.kishur > a:hover{
+    color: silver;
+}
+
+.box1 li {
+    list-style-type: none;
+}
+
+.box2 {
+    border: 5px solid black;
+    margin: 10px;
+    background-color: yellow;
+}
+
+.box3 {
+    border: 5px solid black;
+    margin: 10px;
+    background-color: blue;
+}
+
+.box4 {
+    border: 5px solid black;
+    margin: 10px;
+    background-color: silver;
+}
+
+.box5 {
+    border: 5px solid black;
+    margin: 10px;
+    background-color: red;
+}
+
+.box6 {
+    border: 5px solid black;
+    margin: 10px;
+    background-color: darkslateblue;
+}
+
+.box7{
+    border: 5px solid black;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.box8{
+    border: 5px solid black;
+    margin: 10px;
+    background-color: blue;
+}
+
+h2, h3 {
+    margin: 7px;
+    font-size: 15px;
+}
+
+img {
+    border: 3px solid black;
+    margin-right: 8px;
+}
+
+h4 {
+    color: black;
+    margin: 10px;
+    width: 420px;
+}
+
+h5 {
+    text-align: center;
+}
+
