@@ -1,0 +1,112 @@
+/* CSS Document */
+
+.all_site {
+    /* background-color: blue; */
+    width: 75%;
+    height: 1060px;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+h1 {
+    position: absolute;
+    top: -30px;
+    left: 420px;
+    font-size: 48px;
+    background-color: blue;
+    color: red;
+}
+
+h2 {
+    position: relative;
+    top: 70px;
+    font-size: 30px;
+    left: 120px;
+    color: rgb(255, 238, 0);
+    z-index: 1;
+}
+
+img {
+    position: relative;
+    left: -30px;
+}
+
+.yehus {
+    position: relative;
+    top: -320px;
+    left: 20px;
+    font-size: 25px;
+    color: red;
+}
+
+.positive {
+    position: relative;
+    top: -500px;
+    left: -220px;
+    font-size: 50px;
+    border-bottom: 10px solid black;
+    width: 350px;
+    margin: auto;
+    color: red;
+}
+
+.negative {
+    position: relative;
+    top: -700px;
+    left: 210px;
+    font-size: 50px;
+    border-bottom: 10px solid black;
+    width: 250px;
+    margin: auto;
+    color: red;
+}
+
+.first_h3 {
+    position: relative;
+    top: -730px;
+    width: 150px;
+    height: 130px;
+    left: 700px;
+    font-size: 30px;
+    border-right: 6px solid black;
+}
+
+.positive_h3 {
+    position: relative;
+    top: -930px;
+    width: 100px;
+    height: 130px;
+    left: 300px;
+    font-size: 30px;
+    color: red;
+    /* border-left: 6px solid black; */
+}
+
+.second_h3 {
+    position: relative;
+    top: -1050px;
+    width: 100px;
+    height: 140px;
+    left: 350px;
+    font-size: 30px;
+    border-left: 6px solid black;
+}
+
+.third_h3 {
+    position: relative;
+    top: -1220px;
+    width: 100px;
+    height: 140px;
+    left: 170px;
+    font-size: 30px;
+    border-left: 6px solid black;
+}
+
+.explanations {
+    position: relative;
+    top: -1030px;
+    text-align: right;
+    left: 170px;
+    font-size: 24px;
+}
